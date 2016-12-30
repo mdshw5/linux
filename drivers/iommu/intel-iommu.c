@@ -20,7 +20,7 @@
 
 #define pr_fmt(fmt)     "DMAR: " fmt
 
-#include <string.h>
+#include <linux/string.h>
 #include <linux/init.h>
 #include <linux/bitmap.h>
 #include <linux/debugfs.h>
